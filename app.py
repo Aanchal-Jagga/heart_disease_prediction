@@ -111,7 +111,7 @@ with tab2:
         input_data = pd.read_csv(uploaded_file)
 
         # Load a trained model (example: Logistic Regression)
-        model = pickle.load(open("LogisticRegression.pkl", "rb"))
+        model = pickle.load(open("LR.pkl", "rb"))
 
         expected_columns=['Age', 'Sex', 'ChestPainType', 'RestingBP', 'Cholesterol', 'FastingBS', 'RestingECG', 'MaxHR', 'ExerciseAngina', 'Oldpeak', 'ST_Slope']
         
